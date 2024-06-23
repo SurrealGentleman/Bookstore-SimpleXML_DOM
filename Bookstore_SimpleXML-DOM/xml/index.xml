@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book_shop title="Книжный магазин">
+	<department id="1" name="Компьютерная литература">
+		<book id="1" name="Как стать Full-Stack разработчиком" year="2023 г." pages="390 стр.">
+			<genre id="1" name="Программирование"/>
+			<genre id="2" name="PHP"/>
+			<autor id="1" full_name="Руднев А.В."/>
+			<autor id="2" full_name="Кац Д.Е."/>
+			<location id="1" name="Языки программирования"/>
+			<location id="2" name="Зал 1"/>
+			<publishing_house id="1" name="Пастер"/>
+			<publishing_house id="2" name="Комп3D"/>
+		</book>
+		<book id="2" name="Бизнес-моделирование и Анализ Данных" year="2022 г." pages="944 стр.">
+			<genre id="3" name="Нехудожественная литература"/>
+			<genre id="4" name="Информационные технологии"/>
+			<autor id="3" full_name="Володин А.А."/>
+			<autor id="4" full_name="Кашин Д.И."/>
+			<location id="3" name="Бизнес"/>
+			<location id="2" name="Зал 1"/>
+			<publishing_house id="1" name="Пастер"/>
+			<publishing_house id="3" name="Питер"/>
+		</book>
+		<employee id="1" full_name="Иванов И.И." job_title="Консультант"/>
+		<employee id="2" full_name="Макова В.С." job_title="Кассир"/>
+	</department>
+	<department id="2" name="Школьная литература">
+		<book id="3" name="Математика 5класс" year="2010 г." pages="309 стр.">
+			<genre id="5" name="Учебник"/>
+			<genre id="6" name="Математика"/>
+			<autor id="5" full_name="Виленкин Н.Я."/>
+			<autor id="6" full_name="Жохов В.И."/>
+			<location id="4" name="Школа"/>
+			<location id="5" name="Зал 2"/>
+			<publishing_house id="4" name="Просвещение 2021"/>
+			<publishing_house id="5" name="ФГОС"/>
+		</book>
+		<book id="4" name="Информатика 9класс" year="2019 г." pages="208 стр.">
+			<genre id="5" name="Учебник"/>
+			<genre id="4" name="Информационные технологии"/>
+			<autor id="7" full_name="Босова Л.Л."/>
+			<autor id="8" full_name="Босова А.Ю."/>
+			<location id="4" name="Школа"/>
+			<location id="5" name="Зал 2"/>
+			<publishing_house id="6" name="Бином"/>
+			<publishing_house id="7" name="Касперский"/>
+		</book>
+		<employee id="3" full_name="Андреев П.К." job_title="Консультант"/>
+		<employee id="2" full_name="Макова В.С." job_title="Кассир"/>
+	</department>
+</book_shop>
